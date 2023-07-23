@@ -907,12 +907,11 @@ visibility: hidden;
 }
 
 .close-btn svg{
-  background-color: #fff;
+  background-color: #ffffff;
   border: none;
   width: 27px;
 height: 27px;
 flex-shrink: 0;
-color: #fff;
 cursor: pointer;
 position: absolute;
 right: 9px;
@@ -920,15 +919,18 @@ top:9px;
 
 }
 
-.close-btn:hover use,
-.close-btn:focus svg{
-  color:#2196F3;
+.modal-content .close-btn svg:hover {
+  fill: #2196F3;
+  color: #2196f3;
 }
+
 
 .close-btn {
   background-color: #fff;
   border: none;
-  
+  position: absolute;
+right: 9px;
+top:9px;
 }
 
 /* Modal FORM */
@@ -938,13 +940,14 @@ top:9px;
 .form-modal{
   display: flex;
   flex-direction: column;
-  gap:px;
+  
   margin-top:30px;
   width: 448px;
 height: 40px;
 flex-shrink: 0;
 gap:10px;
 position: relative;
+margin-top:12px;
 
 }
 
@@ -966,6 +969,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.6px;
+margin-top:30px;
 }
 
 form .label-text-modal{
