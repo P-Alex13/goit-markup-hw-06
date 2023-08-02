@@ -527,7 +527,7 @@
     </footer>
 
     <!-- Modal -->
-    <div class="modal is-hidden" data-modal>
+    <div class="modal is-visible is-hidden" data-modal>
       <div class="modal-content">
         <button class="close-btn" data-modal-close>
           <svg class="close">
@@ -575,10 +575,17 @@
             </label>
             <div class="btn-agree">
               <label class="form-group-modal-checkbox">
-                <input class="checkbox" type="checkbox" name="term-conditions" id="" /> 
-                
-               <div class="checkbox-text"> I agree with the letter and accept the <span>Terms and Conditions</span></div> 
-              
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="term-conditions"
+                  id=""
+                />
+
+                <div class="checkbox-text">
+                  I agree with the letter and accept the
+                  <a href="#">Terms and Conditions</a>
+                </div>
               </label>
 
               <button class="input-btn-modal" type="submit">Send</button>
@@ -587,7 +594,7 @@
         </form>
       </div>
     </div>
-
+    <script src="./mobile-menu.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
